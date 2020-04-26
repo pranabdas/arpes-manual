@@ -7,5 +7,7 @@ Table of contents:
 + [Analyzer slit dimension](slit-dim.md) 
 + [SCIENTA Power Supply Connections](power-supply-connections.md) 
 + [Supply information for Spin measurements](spin-supply.md) 
++ [Data analysis](data-analysis.md) 
++ [Experimental ARPES resolution](resolution.md) 
 
 If there are any questions or feedback, please let me know. You can find contact details in my [homepage](https://pranabdas.github.io). 

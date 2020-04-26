@@ -8,7 +8,7 @@
   
   <meta name="author" content="Pranab Das">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>About - ARPES manual (SUV, SSLS)</title>
+  <title>Data analysis - ARPES manual (SUV, SSLS)</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,9 +17,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "About";
-    var mkdocs_page_input_path = "about.md";
-    var mkdocs_page_url = "/about/";
+    var mkdocs_page_name = "Data analysis";
+    var mkdocs_page_input_path = "data-analysis.md";
+    var mkdocs_page_url = null;
   </script>
   
   <script src="../js/jquery-2.1.1.min.js" defer></script>
@@ -86,10 +86,18 @@
           
             <li class="toctree-l1 current">
 		
-    <a class="current" href="./">About</a>
+    <a class="current" href="./">Data analysis</a>
     <ul class="subnav">
             
+    <li class="toctree-l2"><a href="#data-analysis">Data analysis</a></li>
+    
+
     </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../resolution/">Resolution</a>
 	    </li>
           
         </ul>
@@ -114,11 +122,9 @@
     
       
     
-    <li>About</li>
+    <li>Data analysis</li>
     <li class="wy-breadcrumbs-aside">
-      
-        <a href="https://pranabdas.github.io/"> Homepage</a>
-      
+        <a href="https://pranabdas.github.io">Homepage</a>
     </li>
   </ul>
   <hr/>
@@ -126,13 +132,16 @@
           <div role="main">
             <div class="section">
               
-                <p>My homepage - <a href="https://pranabdas.github.io/">https://pranabdas.github.io/</a></p>
+                <h3 id="data-analysis">Data analysis</h3>
+<p>All ARPES and XPS data are recorded by Scienta-Omicron SES software. We store bandstructure data in both Igor and plain text formats, while the Fermi mapping data is stored in a zipped binary format. The data can be easily opened by Igor program, or our <a href="https://pranabdas.github.io/docs/arpespythontools/">arpespythontools</a> package can be used analyze the data. A MATLAB loader is also available from us. One can implement data loaders for other plotting programs. </p>
               
             </div>
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../resolution/" class="btn btn-neutral float-right" title="Resolution">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../spin-supply/" class="btn btn-neutral" title="Supply information for Spin measurements"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -164,6 +173,8 @@
       
         <span><a href="../spin-supply/" style="color: #2980B9;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../resolution/" style="color: #2980B9">Next &raquo;</a></span>
       
     </span>
 </div>

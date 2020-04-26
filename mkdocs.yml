@@ -1,7 +1,5 @@
 site_name: ARPES manual (SUV, SSLS)
-site_url: https://pranabdas.github.io/
-repo_url: https://github.com/pranabdas/
-repo_name: homepage 
+repo_url: https://pranabdas.github.io 
 site_description: ARPES manual for SUV beamline at SSLS, NUS.
 site_author: Pranab Das 
 
@@ -12,7 +10,8 @@ nav:
     - Analyzer slit dimension: slit-dim.md 
     - SCIENTA Power Supply Connections: power-supply-connections.md 
     - Supply information for Spin measurements: spin-supply.md 
-    - About: about.md 
+    - Data analysis: data-analysis.md 
+    - Resolution: resolution.md 
 
 theme: 
     name: null 
