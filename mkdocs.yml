@@ -1,21 +1,23 @@
-site_name: ARPES manual (SUV, SSLS)
-repo_url: https://pranabdas.github.io 
+site_name: ARPES Manual
+repo_url: https://pranabdas.github.io/
 site_description: ARPES manual for SUV beamline at SSLS, NUS.
-site_author: Pranab Das 
+site_author: Pranab Das
 
 nav:
-    - Home: index.md 
-    - Operation of helium lamp: helium-lamp-operation.md 
-    - Procedure to purge helium gas line: purge-helium-line.md 
-    - Analyzer slit dimension: slit-dim.md 
-    - SCIENTA Power Supply Connections: power-supply-connections.md 
-    - Supply information for Spin measurements: spin-supply.md 
-    - Data analysis: data-analysis.md 
-    - Resolution: resolution.md 
+    - Table of Contents: index.md
+    - About System: system-details.md
+    - Sample mounting: sample-mounting.md
+    - Operation of helium lamp: helium-lamp-operation.md
+    - Procedure to purge helium gas line: purge-helium-line.md
+    - Analyzer slit dimension: slit-dim.md
+    - SCIENTA Power Supply Connections: power-supply-connections.md
+    - Supply information for Spin measurements: spin-supply.md
+    - Data analysis: data-analysis.md
+    - ARPES Resolution: resolution.md
 
-theme: 
-    name: null 
-    custom_dir: simplicity  
+theme:
+    name: null
+    custom_dir: simplicity
     static_templates:
         - 404.html
 
@@ -23,14 +25,13 @@ theme:
     search_index_only: false
 
     highlightjs: true
-    hljs_languages: python 
 
 markdown_extensions:
-  - pymdownx.arithmatex 
+    - pymdownx.arithmatex
+    - attr_list
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
 
-copyright: © Copyright 2020 Pranab Das. All rights reserved. 
-
+copyright: " "
 # google_analytics: [UA-163317742-1, https://pranabdas.github.io/]

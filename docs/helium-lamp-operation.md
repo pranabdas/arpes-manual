@@ -1,6 +1,6 @@
 ### Helium lamp operation 
 
-#### Turn on the lamp
+#### Turning on the lamp
 1. First check for wave guide connections and the setup in general. 
 2. Check water cooling is ON. 
 3. Open the helium line. If the line is not being used for long time, please purge the line. 
@@ -13,7 +13,7 @@
 10. Then switch ON the HV ON/OFF switch, and look in the viewport if there is pitch color light (a color between orange and yellow). If not switch off the high voltage, and adjust the Helium pressure. 
 11. Check the reflection from wave guide. It should be close to zero. Otherwise, adjust the helium pressure. 
 
-#### Turn off the lamp 
+#### Turning off the lamp 
 1. Switch off the High Voltage. 
 2. Press the reset button to switch off the filament, if not needed. 
 3. Close the helium needle valve. 

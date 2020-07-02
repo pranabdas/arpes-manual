@@ -11,12 +11,12 @@ In order to do that we can use the primary/fore pump of the buffer. Here are the
 5. Pump out the helium line by opening the valve 
 6. Close the valve, and fill line with helium, and pump helium out 
 
-Do it several time. 
+Repeat the process a few times. 
 
-![helium-purge-01](img/helium-purge-01.JPG) 
-
-
-![helium-purge-02](img/helium-purge-02.JPG) 
+![helium-purge-01](img/helium-purge-01.JPG){:style="width:600px"}  
 
 
-![helium-purge-03](img/helium-purge-03.JPG) 
+![helium-purge-02](img/helium-purge-02.JPG){:style="width:600px"}  
+
+
+![helium-purge-03](img/helium-purge-03.JPG){:style="width:600px"}  

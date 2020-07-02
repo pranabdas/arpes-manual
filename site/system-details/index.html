@@ -13,7 +13,7 @@
         <link rel="shortcut icon" href="../img/favicon.ico" />
         
         <title>
-            Operation of helium lamp
+            About System
             - ARPES Manual
         </title>
         <link
@@ -37,8 +37,8 @@
         /> 
         <script>
             // Current page data
-            var mkdocs_page_name = "Operation of helium lamp";
-            var mkdocs_page_input_path = "helium-lamp-operation.md";
+            var mkdocs_page_name = "About System";
+            var mkdocs_page_input_path = "system-details.md";
             var mkdocs_page_url = null;
         </script>
         
@@ -80,10 +80,16 @@
                         </li>
                         
                         <li
-                            class="toctree-l1"
+                            class="toctree-l1 current"
                         >
                             
-    <a class="" href="../system-details/">About System</a>
+    <a class="current" href="./">About System</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#about-arpes-system">About ARPES system</a></li>
+    
+
+    </ul>
                         </li>
                         
                         <li
@@ -94,24 +100,10 @@
                         </li>
                         
                         <li
-                            class="toctree-l1 current"
+                            class="toctree-l1"
                         >
                             
-    <a class="current" href="./">Operation of helium lamp</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l2"><a href="#helium-lamp-operation">Helium lamp operation</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l3" href="#turning-on-the-lamp">Turning on the lamp</a></li>
-        
-            <li><a class="toctree-l3" href="#turning-off-the-lamp">Turning off the lamp</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../helium-lamp-operation/">Operation of helium lamp</a>
                         </li>
                         
                         <li
@@ -186,48 +178,35 @@
             &raquo;
         </li>
            
-        <li>Operation of helium lamp</li>
+        <li>About System</li>
         
     </ul>
     <hr />
 </div>
                         <div role="main">
                             <div class="section">
-                                 <h3 id="helium-lamp-operation">Helium lamp operation</h3>
-<h4 id="turning-on-the-lamp">Turning on the lamp</h4>
-<ol>
-<li>First check for wave guide connections and the setup in general. </li>
-<li>Check water cooling is ON. </li>
-<li>Open the helium line. If the line is not being used for long time, please purge the line. </li>
-<li>Open the helium cylinder nob, open the control nob to pressure of about 1 bar. </li>
-<li>Open the valve before the needle valve. </li>
-<li>Open the needle valve slowly, and monitor the pressure. The FG1 in the VUV PCU should reach <span><span class="MathJax_Preview">\sim 1 \times 10^{-1}</span><script type="math/tex">\sim 1 \times 10^{-1}</script></span> mbar. Roughly two full rotation in the needle valve, there is a blue mark. </li>
-<li>Turn on the electronics of the helium lamp. Wait for few minutes. </li>
-<li>If there is any red light/sign on the interlock, press the reset switch. It should clear all warnings/red lights. </li>
-<li>Switch ON, and immediately OFF the HV ON/OFF switch to turn on the filament only. Wait for 1 minute. </li>
-<li>Then switch ON the HV ON/OFF switch, and look in the viewport if there is pitch color light (a color between orange and yellow). If not switch off the high voltage, and adjust the Helium pressure. </li>
-<li>Check the reflection from wave guide. It should be close to zero. Otherwise, adjust the helium pressure. </li>
-</ol>
-<h4 id="turning-off-the-lamp">Turning off the lamp</h4>
-<ol>
-<li>Switch off the High Voltage. </li>
-<li>Press the reset button to switch off the filament, if not needed. </li>
-<li>Close the helium needle valve. </li>
-<li>Close the valve before needle valve. </li>
-<li>Close the valves in the cylinder. </li>
-<li>After switching off the filament, wait for about half an hour. </li>
-<li>Once the filament temperature is below <span><span class="MathJax_Preview">40~^{\circ}C</span><script type="math/tex">40~^{\circ}C</script></span>, switch off the whole electronics. </li>
-<li>Water flow can be closed, or left it running. </li>
-</ol> 
+                                 <h3 id="about-arpes-system">About ARPES system</h3>
+<ul>
+<li>The ARPES system comprised of Scienta-Omicron DA30L hemispherical electron analyzer. </li>
+<li>Base pressure of the system is <span><span class="MathJax_Preview">\sim 1 \times 10^{-10}</span><script type="math/tex">\sim 1 \times 10^{-10}</script></span> mbar. </li>
+<li>A Scienta VUV-5k helium discharge lamp with monochromator is used as photon source. </li>
+<li>Mott spin detectors are also available for spin-resolved band measurement. </li>
+<li>The manipulator can be cooled down using either liquid nitrogen (sample temperature ~90 K) or liquid helium cryogen. </li>
+<li>Single crystalline sample can be exfoliated or cleaved in the load-lock chamber (pressure ~ <span><span class="MathJax_Preview">5 \times 10^{-8}</span><script type="math/tex">5 \times 10^{-8}</script></span> mbar). </li>
+<li>Thin film samples can be grown in-situ using PLD. </li>
+<li>Certain samples can be prepared by argon sputtering and annealing. </li>
+</ul>
+<p><br/></p>
+<p><img alt="SUV ARPES system" src="../img/ARPES-station.jpg" /></p> 
                             </div>
                         </div> <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../purge-helium-line/" class="btn btn-neutral float-right" title="Procedure to purge helium gas line">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../sample-mounting/" class="btn btn-neutral float-right" title="Sample mounting">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../sample-mounting/" class="btn btn-neutral" title="Sample mounting"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href=".." class="btn btn-neutral" title="Table of Contents"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -251,10 +230,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../sample-mounting/" style="color: #2980B9;">&laquo; Previous</a></span>
+        <span><a href=".." style="color: #2980B9;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../purge-helium-line/" style="color: #2980B9">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../sample-mounting/" style="color: #2980B9">Next &raquo;</a></span>
       
     </span>
 </div>
