@@ -129,6 +129,41 @@
                             class="toctree-l1"
                         >
                             
+    <a class="" href="../manipulator/">Manipulator operation</a>
+                        </li>
+                        
+                        <li
+                            class="toctree-l1"
+                        >
+                            
+    <a class="" href="../x-ray/">X-ray source operation</a>
+                        </li>
+                        
+                        <li
+                            class="toctree-l1"
+                        >
+                            
+    <a class="" href="../sputtering/">Sputter gun operation</a>
+                        </li>
+                        
+                        <li
+                            class="toctree-l1"
+                        >
+                            
+    <a class="" href="../heating/">Heating stage operation</a>
+                        </li>
+                        
+                        <li
+                            class="toctree-l1"
+                        >
+                            
+    <a class="" href="../analyzer/">Analyzer Operation</a>
+                        </li>
+                        
+                        <li
+                            class="toctree-l1"
+                        >
+                            
     <a class="" href="../data-analysis/">Data analysis</a>
                         </li>
                         
@@ -143,6 +178,13 @@
     
 
     </ul>
+                        </li>
+                        
+                        <li
+                            class="toctree-l1"
+                        >
+                            
+    <a class="" href="../misc/">Miscellaneous</a>
                         </li>
                         
                     </ul>
@@ -183,24 +225,26 @@
                         <div role="main">
                             <div class="section">
                                  <h3 id="experimental-arpes-resolution">Experimental ARPES resolution</h3>
-<p>The ARPES experimental resolution depends on several factors including measurement temperature, sample quality, quality of electrical contact between sample and analyzer, light source used, and the analyzer resolution. Here we will describe a practical scenario. The sample for this measurement was grown using molecular beam epitaxy (MBE) method. The sample was of very good quality. We obtained the following ARPES spectrum using <span><span class="MathJax_Preview">10~eV</span><script type="math/tex">10~eV</script></span> pass energy and <span><span class="MathJax_Preview">5~meV</span><script type="math/tex">5~meV</script></span> energy step. </p>
-<p><img alt="ARPES spectra" src="../img/res-band.png" style="width:500px" /> </p>
-<p>We extract the Energy Distribution Curve (EDC) by integrating <span><span class="MathJax_Preview">\pm0.25~Å^{-1}</span><script type="math/tex">\pm0.25~Å^{-1}</script></span> range. </p>
-<p><img alt="ARPES spectra" src="../img/res-edc.png" style="width:500px" /> </p>
-<p>Thermal broadening is given by Fermi Dirac distribution: </p>
-<div>
+<p>The ARPES experimental resolution depends on several factors including measurement temperature, sample quality, quality of electrical contact between sample and analyzer, light source used, and the analyzer resolution. Here we will describe a practical scenario. The sample for this measurement was grown using molecular beam epitaxy (MBE) method. The sample was of very good quality. We obtained the following ARPES spectrum using 10&nbsp;eV pass energy and 5&nbsp;meV energy step.</p>
+<p><img alt="ARPES spectra" src="../img/res-band.png" style="width:500px" /></p>
+<p>We extract the Energy Distribution Curve (EDC) by integrating <span class="arithmatex"><span class="MathJax_Preview">\pm0.25~Å^{-1}</span><script type="math/tex">\pm0.25~Å^{-1}</script></span> range.</p>
+<p><img alt="ARPES spectra" src="../img/res-edc.png" style="width:500px" /></p>
+<p>Thermal broadening is given by Fermi Dirac distribution:</p>
+<div class="arithmatex">
 <div class="MathJax_Preview"> F(\epsilon) = \frac{1}{e^{(\epsilon - \mu)/k_B T} + 1} </div>
 <script type="math/tex; mode=display"> F(\epsilon) = \frac{1}{e^{(\epsilon - \mu)/k_B T} + 1} </script>
 </div>
-<p>Above measurement was carried out at liquid nitrogen temperature; the sample temperature reaches about <span><span class="MathJax_Preview">90~K</span><script type="math/tex">90~K</script></span>, at which the Fermi-Dirac distribution looks like this: </p>
-<p><img alt="Fermi Dirac distribution" src="../img/res-fermi-func.png" style="width:500px" /> </p>
-<p>Now, we can convolute a Gaussian broadening of <span><span class="MathJax_Preview">10~meV</span><script type="math/tex">10~meV</script></span>, which fits our experimental data well. </p>
-<p><img alt="Fermi Dirac distribution" src="../img/res-fit.png" style="width:500px" /> </p>
-<p>There is some room for adjusting the fitting parameters, but the slope is certainly better than <span><span class="MathJax_Preview">15~meV</span><script type="math/tex">15~meV</script></span> for our current data. Therefore, we have about <span><span class="MathJax_Preview">8~meV</span><script type="math/tex">8~meV</script></span> thermal broadening at <span><span class="MathJax_Preview">90~K</span><script type="math/tex">90~K</script></span> and <span><span class="MathJax_Preview">10~meV</span><script type="math/tex">10~meV</script></span> instrumental (combines analyzer resolution, light source broadening etc.), i.e., we can expect better than <span><span class="MathJax_Preview">15~meV</span><script type="math/tex">15~meV</script></span> <span><span class="MathJax_Preview">(\sigma_{total} \le \sqrt{\sigma_x^2 + \sigma_y^2})</span><script type="math/tex">(\sigma_{total} \le \sqrt{\sigma_x^2 + \sigma_y^2})</script></span> resolution. </p> 
+<p>Above measurement was carried out at liquid nitrogen temperature; the sample temperature reaches about 90&nbsp;K, at which the Fermi-Dirac distribution looks like this:</p>
+<p><img alt="Fermi Dirac distribution" src="../img/res-fermi-func.png" style="width:500px" /></p>
+<p>Now, we can convolute a Gaussian broadening of 10&nbsp;meV, which fits our experimental data well.</p>
+<p><img alt="Fermi Dirac distribution" src="../img/res-fit.png" style="width:500px" /></p>
+<p>There is some room for adjusting the fitting parameters, but the slope is certainly better than 15&nbsp;meV for our current data. Therefore, we have about 8&nbsp;meV thermal broadening at 90&nbsp;K and 10&nbsp;meV instrumental (combines analyzer resolution, light source broadening etc.), i.e., we can expect better than 15&nbsp;meV <span class="arithmatex"><span class="MathJax_Preview">(\sigma_{total} \le \sqrt{\sigma_x^2 + \sigma_y^2})</span><script type="math/tex">(\sigma_{total} \le \sqrt{\sigma_x^2 + \sigma_y^2})</script></span> resolution.</p> 
                             </div>
                         </div> <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../misc/" class="btn btn-neutral float-right" title="Miscellaneous">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../data-analysis/" class="btn btn-neutral" title="Data analysis"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -212,7 +256,7 @@
 
   <div role="contentinfo">
     <!-- Copyright etc -->
-    <p>&copy; Copyright 2020 Pranab Das. All rights reserved.</p>
+    <p>&copy; Copyright 2021 Pranab Das. All rights reserved.</p>
   </div>
 
 </footer> 
@@ -227,6 +271,8 @@
       
         <span><a href="../data-analysis/" style="color: #2980B9;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../misc/" style="color: #2980B9">Next &raquo;</a></span>
       
     </span>
 </div>

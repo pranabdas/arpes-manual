@@ -13,7 +13,7 @@
         <link rel="shortcut icon" href="../img/favicon.ico" />
         
         <title>
-            Sample mounting
+            Heating stage operation
             - ARPES Manual
         </title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -34,8 +34,8 @@
         /> 
         <script>
             // Current page data
-            var mkdocs_page_name = "Sample mounting";
-            var mkdocs_page_input_path = "sample-mounting.md";
+            var mkdocs_page_name = "Heating stage operation";
+            var mkdocs_page_input_path = "heating.md";
             var mkdocs_page_url = null;
         </script>
         
@@ -84,16 +84,10 @@
                         </li>
                         
                         <li
-                            class="toctree-l1 current"
+                            class="toctree-l1"
                         >
                             
-    <a class="current" href="./">Sample mounting</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l2"><a href="#sample-mounting">Sample mounting</a></li>
-    
-
-    </ul>
+    <a class="" href="../sample-mounting/">Sample mounting</a>
                         </li>
                         
                         <li
@@ -153,10 +147,19 @@
                         </li>
                         
                         <li
-                            class="toctree-l1"
+                            class="toctree-l1 current"
                         >
                             
-    <a class="" href="../heating/">Heating stage operation</a>
+    <a class="current" href="./">Heating stage operation</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#heating-stage-operation">Heating stage operation</a></li>
+    
+
+    <li class="toctree-l2"><a href="#user-manuals">User manuals</a></li>
+    
+
+    </ul>
                         </li>
                         
                         <li
@@ -217,33 +220,41 @@
             &raquo;
         </li>
            
-        <li>Sample mounting</li>
+        <li>Heating stage operation</li>
         
     </ul>
     <hr />
 </div>
                         <div role="main">
                             <div class="section">
-                                 <h3 id="sample-mounting">Sample mounting</h3>
-<p>We use standard Omicron sample holder. If the sample does not require heating, we can fix samples using silver epoxy. In case of XPS measurement, we can fix the sample using carbon- or copper-tapes. The sample dimension has to be less than 10 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm. If the sample require heating, we need to fix the sample using metal stripes, and screw the stripes. It is better to have following sample dimensions: </p>
-<ol>
-<li>5 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm </li>
-<li>10 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm </li>
-<li>Basically, one side 10 mm and other side anywhere between 5 - 10 mm </li>
-<li>5 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 5 mm </li>
-<li>Arbitrary sample sizes maybe accommodated, please check with us. </li>
-</ol>
-<p>Note that above sample sizes are applicable only for the samples that requires heating, or has to go inside the PLD chamber. If the sample does not require heating, any size that fits inside 10 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm area is OK. </p>
-<p><img alt="Omicron sample holder" src="../img/sample-holder.jpg" style="width:400px;" /> </p> 
+                                 <h3 id="heating-stage-operation">Heating stage operation</h3>
+<p>Make sure water cooling is ON. Close the gate valve between preparation and
+analysis chambers. Increase the temperature slowly while monitoring the chamber
+pressure (should not be worse than <span class="arithmatex"><span class="MathJax_Preview">1 \times 10^{-7}</span><script type="math/tex">1 \times 10^{-7}</script></span> mbar at any stage, if
+possible try to maintain better pressure).</p>
+<p>Our heating system allows both resistive heating and e-beam heating. Note that
+the temperature sensor is away from the sample position. As a result, the read
+out temperature is lower than the actual sample temperature. Please refer to
+this <a href="https://file-storage.github.io/manuals/Heating_datasheet_WT-1143031.pdf" target="_blank">data sheet</a>
+for more details.</p>
+<h3 id="user-manuals">User manuals</h3>
+<ul>
+<li>
+<p><a href="https://file-storage.github.io/manuals/Heat3.pdf" target="_blank">Heating controller manual</a></p>
+</li>
+<li>
+<p><a href="https://file-storage.github.io/manuals/Heating_datasheet_WT-1143031.pdf" target="_blank">Heating stage data sheet</a></p>
+</li>
+</ul> 
                             </div>
                         </div> <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../helium-lamp-operation/" class="btn btn-neutral float-right" title="Operation of helium lamp">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../analyzer/" class="btn btn-neutral float-right" title="Analyzer Operation">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../system-details/" class="btn btn-neutral" title="About System"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../sputtering/" class="btn btn-neutral" title="Sputter gun operation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -265,10 +276,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../system-details/" style="color: #2980B9;">&laquo; Previous</a></span>
+        <span><a href="../sputtering/" style="color: #2980B9;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../helium-lamp-operation/" style="color: #2980B9">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../analyzer/" style="color: #2980B9">Next &raquo;</a></span>
       
     </span>
 </div>

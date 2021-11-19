@@ -12,8 +12,14 @@ nav:
     - Analyzer slit dimension: slit-dim.md
     - SCIENTA Power Supply Connections: power-supply-connections.md
     - Supply information for Spin measurements: spin-supply.md
+    - Manipulator operation: manipulator.md
+    - X-ray source operation: x-ray.md
+    - Sputter gun operation: sputtering.md
+    - Heating stage operation: heating.md
+    - Analyzer Operation: analyzer.md
     - Data analysis: data-analysis.md
     - ARPES Resolution: resolution.md
+    - Miscellaneous: misc.md
 
 theme:
     name: null

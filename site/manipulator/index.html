@@ -13,7 +13,7 @@
         <link rel="shortcut icon" href="../img/favicon.ico" />
         
         <title>
-            Sample mounting
+            Manipulator operation
             - ARPES Manual
         </title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -34,8 +34,8 @@
         /> 
         <script>
             // Current page data
-            var mkdocs_page_name = "Sample mounting";
-            var mkdocs_page_input_path = "sample-mounting.md";
+            var mkdocs_page_name = "Manipulator operation";
+            var mkdocs_page_input_path = "manipulator.md";
             var mkdocs_page_url = null;
         </script>
         
@@ -84,16 +84,10 @@
                         </li>
                         
                         <li
-                            class="toctree-l1 current"
+                            class="toctree-l1"
                         >
                             
-    <a class="current" href="./">Sample mounting</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l2"><a href="#sample-mounting">Sample mounting</a></li>
-    
-
-    </ul>
+    <a class="" href="../sample-mounting/">Sample mounting</a>
                         </li>
                         
                         <li
@@ -132,10 +126,31 @@
                         </li>
                         
                         <li
-                            class="toctree-l1"
+                            class="toctree-l1 current"
                         >
                             
-    <a class="" href="../manipulator/">Manipulator operation</a>
+    <a class="current" href="./">Manipulator operation</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#reference-positions">Reference positions</a></li>
+    
+
+    <li class="toctree-l2"><a href="#manipulator-operation">Manipulator operation</a></li>
+    
+
+    <li class="toctree-l2"><a href="#re-calibration">Re-calibration</a></li>
+    
+
+    <li class="toctree-l2"><a href="#reinstallation-of-manipulator-softwaredriver">Reinstallation of manipulator software/driver</a></li>
+    
+
+    <li class="toctree-l2"><a href="#troubleshooting">Troubleshooting</a></li>
+    
+
+    <li class="toctree-l2"><a href="#user-manuals">User manuals</a></li>
+    
+
+    </ul>
                         </li>
                         
                         <li
@@ -217,33 +232,105 @@
             &raquo;
         </li>
            
-        <li>Sample mounting</li>
+        <li>Manipulator operation</li>
         
     </ul>
     <hr />
 </div>
                         <div role="main">
                             <div class="section">
-                                 <h3 id="sample-mounting">Sample mounting</h3>
-<p>We use standard Omicron sample holder. If the sample does not require heating, we can fix samples using silver epoxy. In case of XPS measurement, we can fix the sample using carbon- or copper-tapes. The sample dimension has to be less than 10 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm. If the sample require heating, we need to fix the sample using metal stripes, and screw the stripes. It is better to have following sample dimensions: </p>
+                                 <h3 id="reference-positions">Reference positions</h3>
+<ul>
+<li>
+<p>Sample transfer position: <br/>
+X = 17.20 mm <br/>
+Z = 43.7 cm <br/>
+θ = 95° <br/>
+<br/></p>
+</li>
+<li>
+<p>Rotate the manipulator from transfer to measurement position (θ : 95° → 2°) in
+the preparation chamber. Set the XY stage more or less at the center. <br/>
+X = 15 mm <br/>
+Y = 14 mm <br/>
+Z = 40 cm <br/>
+<br/></p>
+</li>
+<li>
+<p>To the manipulator to pass through the neck of analysis chamber (Z : 40 cm →
+12 cm):  <br/>
+X = 18 mm <br/>
+Y = 8 mm <br/>
+<br/></p>
+</li>
+<li>
+<p>Manipulator movement in front of analyzer (Z &lt; 12 cm):
+X = 18 mm <br/>
+Y = 16 mm <br/>
+<br/></p>
+</li>
+<li>
+<p>Measurement position (depending on the sample/substrate thickness):
+X = 12 mm <br/>
+Y = 16 mm <br/>
+Z = 1.675 cm <br/></p>
+</li>
+</ul>
+<h3 id="manipulator-operation">Manipulator operation</h3>
+<p>Always double check the x- and y-positions before moving the manipular
+z-position and rotations. In order to move the manipulator, input the absolute
+position, press enter, and once ready click the play button. Always watch inside
+the chamber when manipulator is moving.</p>
+<p><img alt="manipulator motion" src="../img/manipulator-motion.png" style="width:400px" /></p>
+<h3 id="re-calibration">Re-calibration</h3>
+<p>If the manipulator position is known, one can set it from the settings:</p>
+<p><img alt="manipulator main-window" src="../img/manipulator-main-window.png" style="width:400px" /></p>
+<p>You can also access settings and calibration from the Setup menu.</p>
+<p><img alt="manipulator calibration" src="../img/manipulator-calibration.png" style="width:400px" /></p>
+<h3 id="reinstallation-of-manipulator-softwaredriver">Reinstallation of manipulator software/driver</h3>
 <ol>
-<li>5 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm </li>
-<li>10 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm </li>
-<li>Basically, one side 10 mm and other side anywhere between 5 - 10 mm </li>
-<li>5 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 5 mm </li>
-<li>Arbitrary sample sizes maybe accommodated, please check with us. </li>
+<li>Install Microsoft .NET framework 3.5</li>
+<li>Install MOXA serial to USB adapter UPort 1250 driver. You can download the
+drivers from MOXA <a href="https://moxa.com/en/support/product-support/software-and-documentation?psid=114475">website</a>.
+If you have problem finding the driver in the official website, you may try
+<a href="http://pranabdas.github.io/drive/downloads/moxa-uport-1200-v3.1.zip">this</a>.</li>
+<li>Once the driver is installed and instruments are plugged in, the device
+should appear in Windows Device Manager.</li>
 </ol>
-<p>Note that above sample sizes are applicable only for the samples that requires heating, or has to go inside the PLD chamber. If the sample does not require heating, any size that fits inside 10 mm <span class="arithmatex"><span class="MathJax_Preview">\times</span><script type="math/tex">\times</script></span> 10 mm area is OK. </p>
-<p><img alt="Omicron sample holder" src="../img/sample-holder.jpg" style="width:400px;" /> </p> 
+<p><img alt="device-manager" src="../img/device-manager.png" style="width:500px" /> <br/><br/>
+4. Set the correct port settings:</p>
+<p><img alt="port-settings" src="../img/moxa-port-settings.png" style="width:400px" /> <br/><br/>
+5. Download and unzip the <a href="http://pranabdas.github.io/drive/downloads/manipulator.zip">manipulator program</a>. Note that the
+settings are specific to our system.</p>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<ol>
+<li>If there are communication issues, make sure the COM port in Device manager
+and manipulator settings are same.</li>
+</ol>
+<p><img alt="manipulator-settings" src="../img/manipulator-settings.png" style="width:500px" /> <br/><br/>
+2. Often after power down or reconnecting the cables, the motor may give error
+due to high acceleration. In that case, reduce the motor speed (2°/s^2):</p>
+<p><img alt="motor-speed" src="../img/motor-speed.png" style="width:500px" /> <br/><br/>
+3. You can save/reload manipulator settings to/from a file (look for the
+respective icons in the top bar in the setup window).</p>
+<h3 id="user-manuals">User manuals</h3>
+<ul>
+<li>
+<p><a href="https://file-storage.github.io/manuals/Manipulator-Service-Book.pdf" target="_blank">Manipulator Service Book</a></p>
+</li>
+<li>
+<p><a href="https://file-storage.github.io/manuals/Manual-Manipulator-v25.pdf" target="_blank">Manipulator Software Manual</a></p>
+</li>
+</ul> 
                             </div>
                         </div> <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../helium-lamp-operation/" class="btn btn-neutral float-right" title="Operation of helium lamp">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../x-ray/" class="btn btn-neutral float-right" title="X-ray source operation">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../system-details/" class="btn btn-neutral" title="About System"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../spin-supply/" class="btn btn-neutral" title="Supply information for Spin measurements"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -265,10 +352,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../system-details/" style="color: #2980B9;">&laquo; Previous</a></span>
+        <span><a href="../spin-supply/" style="color: #2980B9;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../helium-lamp-operation/" style="color: #2980B9">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../x-ray/" style="color: #2980B9">Next &raquo;</a></span>
       
     </span>
 </div>
