@@ -1,7 +1,7 @@
 ### Sputter gun operation
 
 Sputter gun position is 100° (with respect to measurement position = 0° and
-transfer position = 90°). Set suitable argon pressure (~&nbsp;$10^{-6}$ mbar).
+transfer position = 90°). Set suitable argon pressure (~10<sup>-6</sup> mbar).
 
 Energy = 1 kV <br/>
 Emission = 5 mA.

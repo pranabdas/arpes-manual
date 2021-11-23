@@ -18,12 +18,12 @@ X = 18 mm <br/>
 Y = 8 mm <br/>
 <br/>
 
-- Manipulator movement in front of analyzer (Z < 12 cm):
+- Manipulator movement in front of analyzer (Z < 12 cm): <br/>
 X = 18 mm <br/>
 Y = 16 mm <br/>
 <br/>
 
-- Measurement position (depending on the sample/substrate thickness):
+- Measurement position (depending on the sample/substrate thickness): <br/>
 X = 12 mm <br/>
 Y = 16 mm <br/>
 Z = 1.675 cm <br/>
@@ -74,6 +74,8 @@ due to high acceleration. In that case, reduce the motor speed (2°/s^2):
 ![motor-speed](./img/motor-speed.png){:style="width:500px"} <br/><br/>
 3. You can save/reload manipulator settings to/from a file (look for the
 respective icons in the top bar in the setup window).
+
+![setup-toolbar](./img/setup-toolbar.png){:style="width:500px"} <br/><br/>
 
 ### User manuals
 

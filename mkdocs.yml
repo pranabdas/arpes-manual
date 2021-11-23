@@ -19,6 +19,7 @@ nav:
     - Analyzer Operation: analyzer.md
     - Data analysis: data-analysis.md
     - ARPES Resolution: resolution.md
+    - Backing chambers: baking.md
     - Miscellaneous: misc.md
 
 theme:

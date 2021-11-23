@@ -16,4 +16,5 @@ Table of contents:
 + [Analyzer Operation](analyzer.md)
 + [Data analysis](data-analysis.md)
 + [ARPES resolution](resolution.md)
++ [Backing chambers](baking.md)
 + [Miscellaneous](misc.md)
