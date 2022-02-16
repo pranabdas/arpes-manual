@@ -1,8 +1,14 @@
-#### ARPES manual (SUV beamline, SSLS)
+---
+title: ARPES Manual (SSLS, SUV Beamline)
+sidebar_label: Welcome
+slug: /
+---
 
-Table of contents:
+Some useful information about the ARPES system at SSLS, SUV Beamline.
 
-+ [About ARPES system](system-details.md)
+## Table of contents
+
++ [About ARPES system](about-system.md)
 + [Sample mounting](sample-mounting.md)
 + [Operation of helium lamp](helium-lamp-operation.md)
 + [Procedure to purge helium gas line](purge-helium-line.md)

@@ -1,4 +1,8 @@
-### Backing the chambers and instruments
+---
+title: Baking the chambers and instruments
+sidebar_label: Baking procedure
+---
+
 Once the ultra high vacuum components are exposed to the atmosphere, they
 require baking at high temperature (usually 110°-150&nbsp;°C) in order to
 release various contaminants from the walls of the chambers.
@@ -17,6 +21,9 @@ the knob wheel while detached.
 cooling water pipes.
 7. Cover all the windows, and feed through by aluminum foil.
 8. Setup the baking tents.
+
+**Note:** Due to improper interlock configuration, currently the baking
+controller requires the cryopump to be ON while baking.
 
 ### Reference log
 For you reference of various conditions, here is sample logbook:
@@ -47,10 +54,15 @@ Started NEG pump in conditioning mode.
 
 Settings for NEG conditioning:
 
-![NEG-conditioning](./img/neg-conditioning.png){:style="width:400px;"}
+<img
+  src={require("/img/neg-conditioning.jpg").default}
+  alt="neg-conditioning"
+  width="400px"
+/>
 
 Maximum time can be set for conditioning is 48 hours. We need to restart the NEG
-conditioning after 48 hours or before.
+conditioning after 48 hours or before. During conditioning, the NEG temperature
+reaches 250&nbsp;°C.
 
 Chamber pressure at 17:30 <br />
 Analyzer : 3.88 ✕ 10<sup>-7</sup> mbar <br />
@@ -101,7 +113,11 @@ t<sub>rise</sub> = 15 min <br />
 t<sub>hold</sub> = 60 min <br />
 T = 450 °C <br />
 
-![NEG-activation](./img/neg-activation.png){:style="width:400px;"}
+<img
+  src={require("/img/neg-activation.jpg").default}
+  alt="neg-activation"
+  width="400px"
+/>
 
 Pressure is increasing after NEG activation. After 19 minutes, status is HOLD,
 temperature is 335&nbsp;°C.

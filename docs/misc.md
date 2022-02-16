@@ -1,6 +1,8 @@
-### Miscellaneous
+---
+title: Miscellaneous
+---
 
-**Buffer pressure limits:**
+### Buffer pressure limits
 
 We noticed some error in the buffer PCU. It is likely due to the vacuum limits
 are too high to maintain, and there is some time limit on how long the primary/

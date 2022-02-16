@@ -1,4 +1,6 @@
-### Data analysis
+---
+title: Data analysis
+---
 
 All ARPES and XPS data are recorded by Scienta-Omicron SES software. We store
 bandstructure data in both Igor and plain text formats, while the Fermi mapping

@@ -1,4 +1,7 @@
-### Experimental ARPES resolution
+---
+title: Experimental ARPES resolution
+sidebar_label: ARPES resolution
+---
 
 The ARPES experimental resolution depends on several factors including
 measurement temperature, sample quality, quality of electrical contact between
@@ -8,28 +11,46 @@ using molecular beam epitaxy (MBE) method. The sample was of very good quality.
 We obtained the following ARPES spectrum using 10&nbsp;eV pass energy and
 5&nbsp;meV energy step.
 
-![ARPES spectra](img/res-band.png){:style="width:500px"}
+<img
+  src={require("/img/res-band.png").default}
+  alt="res-band"
+  width="500px"
+/>
 
 We extract the Energy Distribution Curve (EDC) by integrating
 ±0.25&nbsp;Å<sup>-1</sup> range.
 
-![ARPES spectra](img/res-edc.png){:style="width:500px"}
+<img
+  src={require("/img/res-edc.png").default}
+  alt="res-edc"
+  width="500px"
+/>
 
 Thermal broadening is given by Fermi Dirac distribution:
 
-$$ F(\epsilon) = \frac{1}{e^{(\epsilon - \mu)/k_B T} + 1} $$
+$$
+F(\epsilon) = \frac{1}{e^{(\epsilon - \mu)/k_B T} + 1}
+$$
 
 
 Above measurement was carried out at liquid nitrogen temperature; the sample
 temperature reaches about 90&nbsp;K, at which the Fermi-Dirac distribution looks
 like this:
 
-![Fermi Dirac distribution](img/res-fermi-func.png){:style="width:500px"}
+<img
+  src={require("/img/res-fermi-func.png").default}
+  alt="res-fermi-func"
+  width="500px"
+/>
 
 Now, we can convolute a Gaussian broadening of 10&nbsp;meV, which fits our
 experimental data well.
 
-![Fermi Dirac distribution](img/res-fit.png){:style="width:500px"}
+<img
+  src={require("/img/res-fit.png").default}
+  alt="res-fit"
+  width="500px"
+/>
 
 There is some room for adjusting the fitting parameters, but the slope is
 certainly better than 15&nbsp;meV for our current data. Therefore, we have about

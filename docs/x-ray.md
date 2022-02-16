@@ -1,4 +1,6 @@
-### X-ray Source Operation
+---
+title: X-ray Source Operation
+---
 
 Make sure water cooling is ON. There are two separate water cooling lines (each
 having one inlet and one outlet pipes): one for the anode where the direction of
@@ -16,4 +18,4 @@ Anode current = 10 mA.
 
 ### User manual
 
-- [X-ray source user manual](https://file-storage.github.io/manuals/Operating-manual-X-ray-RS-40B1.pdf){:target="_blank"}
+- [X-ray source user manual](https://file-storage.github.io/manuals/Operating-manual-X-ray-RS-40B1.pdf)

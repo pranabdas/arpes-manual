@@ -1,4 +1,6 @@
-### Sputter gun operation
+---
+title: Sputter gun operation
+---
 
 Sputter gun position is 100° (with respect to measurement position = 0° and
 transfer position = 90°). Set suitable argon pressure (~10<sup>-6</sup> mbar).
@@ -10,4 +12,4 @@ We have no way to monitor sample current, so follow the trail and error method.
 
 ### User manuals
 
-- [Ion source manual](https://file-storage.github.io/manuals/IS40_UserManual_3.5_rev1.pdf){:target="_blank"}
+- [Ion source manual](https://file-storage.github.io/manuals/IS40_UserManual_3.5_rev1.pdf)

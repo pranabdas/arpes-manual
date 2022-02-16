@@ -1,4 +1,7 @@
-### Analyzer Operation
+---
+title: Analyzer Operation
+---
+
 Make sure correct analyzer slit is chosen.
 
 **Element Voltages:** <br/>
@@ -13,6 +16,5 @@ voltage to 1200 V or below.
 
 ### User manuals
 
-- [SES User Guide](https://file-storage.github.io/manuals/SES-Software-User-Guide-v2.0.pdf){:target="_blank"}
-
-- [SES Software Manual](https://file-storage.github.io/manuals/SES-Software-Manual-v5_1.pdf){:target="_blank"}
+- [SES User Guide](https://file-storage.github.io/manuals/SES-Software-User-Guide-v2.0.pdf)
+- [SES Software Manual](https://file-storage.github.io/manuals/SES-Software-Manual-v5_1.pdf)

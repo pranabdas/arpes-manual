@@ -1,0 +1,22 @@
+module.exports = {
+  docs: [
+    "index",
+    "about-system",
+    "sample-mounting",
+    "helium-lamp-operation",
+    "purge-helium-line",
+    "slit-dim",
+    "power-supply-connections",
+    "spin-supply",
+    "manipulator",
+    "x-ray",
+    "sputtering",
+    "heating",
+    "analyzer",
+    "data-analysis",
+    "resolution",
+    "baking",
+    "misc",
+    "license",
+  ],
+};
