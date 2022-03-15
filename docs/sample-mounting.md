@@ -52,3 +52,18 @@ materials can be exfoliated by attaching Kapton tape.
 
 Sample surface can also be prepared by [sputtering](sputtering.md) and
 [annealing](heating.md) method.
+
+### Epoxy for sample fixing
+
+Samples are usually fixed using two component silver epoxy (Epotek H20E), both
+components should be mixed at 1&nbsp;:&nbsp;1 weight ratio. Hardening condition
+for Epotek H20E:
+
+- 80 deg C for 3 hrs.
+- 100 deg C for 2 hrs.
+- 120 deg C for 15 mins.
+- 150 deg C for 5 mins.
+- 175 deg C for 45 sec.
+
+We also use Torr-seal to mount sample or fix top-post pin, where we need
+stronger glue. Remember torr-seal is insulating, and requires graphite coating.

@@ -14,3 +14,8 @@ MG High: 6.00e-01 mbar <br/>
 
 FG Low: 5.00e-01 mbar <br/>
 FG High: 6.00e-01 mbar. <br/>
+
+### SPIN PCU FV Pump Work Time warning
+
+In order to clear the warning, go to *Settings* → *Advanced Options* → *FV Pump
+Work Time* → *Reset*.

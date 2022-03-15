@@ -19,7 +19,7 @@ should clear all warnings/red lights.
 9. Switch ON, and immediately OFF the HV ON/OFF switch to turn on the filament
 only. Wait for 1 minute.
 10. Then switch ON the HV ON/OFF switch, and look in the viewport if there is
-pitch color light (a color between orange and yellow). If not switch off the
+peach color light (a color between orange and yellow). If not switch off the
 high voltage, and adjust the Helium pressure.
 11. Check the reflection from wave guide. It should be close to zero. Otherwise,
 adjust the helium pressure.
