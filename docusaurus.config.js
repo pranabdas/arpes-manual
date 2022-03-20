@@ -16,11 +16,17 @@ async function config() {
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
+        metadata: [{name: 'theme-color', content: '#006bb3'}],
         prism: {
           theme: require("prism-react-renderer/themes/github"),
           darkTheme: require("prism-react-renderer/themes/nightOwl"),
         },
-        hideableSidebar: true,
+        docs: {
+          sidebar: {
+            hideable: true,
+            autoCollapseCategories: true,
+          }
+        },
         // colorMode: {
         //   defaultMode: "dark",
         //   switchConfig: {
@@ -105,15 +111,18 @@ async function config() {
             },
             {
               to: "https://pranabdas.github.io",
-              label: "About me",
-              position: "left",
+              "aria-label": "About me",
+              position: "right",
               target: "_self",
+              className: "header-homepage-link",
+              title: "Pranab's Homepage"
             },
             {
               href: "https://github.com/pranabdas/arpes-manual",
               position: "right",
               className: "header-github-link",
               "aria-label": "GitHub repository",
+              title: "Visit project repository in GitHub"
             },
           ],
         },
@@ -134,7 +143,7 @@ async function config() {
             routeBasePath: "/",
             // Please change this to your repo.
             editUrl:
-              "https://github.com/pranabdas/arpes-manual/blob/master/",
+              "https://github.com/pranabdas/arpes-manual/blob/main/",
             remarkPlugins: [math],
             rehypePlugins: [katex],
           },
@@ -163,9 +172,6 @@ async function config() {
       {
         href: "https://pranabdas.github.io/drive/webfonts/katex/katex.min.css",
         type: "text/css",
-        integrity:
-          "sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ",
-        crossorigin: "anonymous",
       },
     ],
   };

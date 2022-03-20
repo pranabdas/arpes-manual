@@ -23,4 +23,5 @@ No warranties are given. The license may not give you all of the permissions
 necessary for your intended use. For example, other rights such as publicity,
 privacy, or moral rights may limit how you use the material.
 
-To view full copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+To view full copy of this license, visit
+<https://creativecommons.org/licenses/by/4.0/>
