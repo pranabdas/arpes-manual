@@ -3,4 +3,7 @@ title: Analyzer slit-wheel readings vs slit width
 sidebar_label: Slit dimensions
 ---
 
-![Analyzer-slit-dimension](/img/slit-dim.png)
+<picture>
+  <source type="image/webp" srcset={require("/img/slit-dim.webp").default} />
+  <img src={require("/img/slit-dim.png").default} alt="slit-dim" />
+</picture>

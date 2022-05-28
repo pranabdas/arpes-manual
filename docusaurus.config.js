@@ -110,19 +110,20 @@ async function config() {
               ],
             },
             {
+              href: "https://github.com/pranabdas/arpes-manual",
+              position: "right",
+              className: "header-github-link",
+              "aria-label": "GitHub repository",
+              title: "Visit project repository in GitHub",
+              target: "_self",
+            },
+            {
               to: "https://pranabdas.github.io",
               "aria-label": "About me",
               position: "right",
               target: "_self",
               className: "header-homepage-link",
-              title: "Pranab's Homepage"
-            },
-            {
-              href: "https://github.com/pranabdas/arpes-manual",
-              position: "right",
-              className: "header-github-link",
-              "aria-label": "GitHub repository",
-              title: "Visit project repository in GitHub"
+              title: "Go to Pranab's Homepage",
             },
           ],
         },

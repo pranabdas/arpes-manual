@@ -54,11 +54,10 @@ Started NEG pump in conditioning mode.
 
 Settings for NEG conditioning:
 
-<img
-  src={require("/img/neg-conditioning.jpg").default}
-  alt="neg-conditioning"
-  width="400px"
-/>
+<picture>
+  <source type="image/webp" srcset={require("/img/neg-conditioning.webp").default} />
+  <img src={require("/img/neg-conditioning.jpg").default} alt="neg-conditioning" width="400px" />
+</picture>
 
 Maximum time can be set for conditioning is 48 hours. We need to restart the NEG
 conditioning after 48 hours or before. During conditioning, the NEG temperature
@@ -113,11 +112,10 @@ t<sub>rise</sub> = 15 min <br />
 t<sub>hold</sub> = 60 min <br />
 T = 450 °C <br />
 
-<img
-  src={require("/img/neg-activation.jpg").default}
-  alt="neg-activation"
-  width="400px"
-/>
+<picture>
+  <source type="image/webp" srcset={require("/img/neg-activation.webp").default} />
+  <img src={require("/img/neg-activation.jpg").default} alt="neg-activation" width="400px" />
+</picture>
 
 Pressure is increasing after NEG activation. After 19 minutes, status is HOLD,
 temperature is 335&nbsp;°C.

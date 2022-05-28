@@ -16,6 +16,7 @@ chamber (pressure ~5&nbsp;✕&nbsp;10<sup>-8</sup> mbar).
 - Thin film samples can be grown in-situ using PLD.
 - Certain samples can be prepared by argon sputtering and annealing.
 
-
-
-![SUV ARPES system](/img/ARPES-station.jpg)
+<picture>
+  <source type="image/webp" srcset={require("/img/ARPES-station.webp").default} />
+  <img src={require("/img/ARPES-station.jpg").default} alt="SSLS ARPES system" />
+</picture>
