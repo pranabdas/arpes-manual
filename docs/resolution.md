@@ -12,7 +12,7 @@ We obtained the following ARPES spectrum using 10&nbsp;eV pass energy and
 5&nbsp;meV energy step.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/res-band.webp").default} />
+  <source type="image/webp" srcSet={require("/img/res-band.webp").default} />
   <img src={require("/img/res-band.png").default} alt="res-band" width="500px" />
 </picture>
 
@@ -20,7 +20,7 @@ We extract the Energy Distribution Curve (EDC) by integrating
 ±0.25&nbsp;Å<sup>-1</sup> range.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/res-edc.webp").default} />
+  <source type="image/webp" srcSet={require("/img/res-edc.webp").default} />
   <img src={require("/img/res-edc.png").default} alt="res-edc" width="500px" />
 </picture>
 
@@ -36,7 +36,7 @@ temperature reaches about 90&nbsp;K, at which the Fermi-Dirac distribution looks
 like this:
 
 <picture>
-  <source type="image/webp" srcset={require("/img/res-fermi-func.webp").default} />
+  <source type="image/webp" srcSet={require("/img/res-fermi-func.webp").default} />
   <img src={require("/img/res-fermi-func.png").default} alt="res-fermi-func" width="500px"/>
 </picture>
 
@@ -44,7 +44,7 @@ Now, we can convolute a Gaussian broadening of 10&nbsp;meV, which fits our
 experimental data well.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/res-fit.webp").default} />
+  <source type="image/webp" srcSet={require("/img/res-fit.webp").default} />
   <img src={require("/img/res-fit.png").default} alt="res-fit" width="500px" />
 </picture>
 

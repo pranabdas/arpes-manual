@@ -55,7 +55,7 @@ Started NEG pump in conditioning mode.
 Settings for NEG conditioning:
 
 <picture>
-  <source type="image/webp" srcset={require("/img/neg-conditioning.webp").default} />
+  <source type="image/webp" srcSet={require("/img/neg-conditioning.webp").default} />
   <img src={require("/img/neg-conditioning.jpg").default} alt="neg-conditioning" width="400px" />
 </picture>
 
@@ -113,7 +113,7 @@ t<sub>hold</sub> = 60 min <br />
 T = 450 °C <br />
 
 <picture>
-  <source type="image/webp" srcset={require("/img/neg-activation.webp").default} />
+  <source type="image/webp" srcSet={require("/img/neg-activation.webp").default} />
   <img src={require("/img/neg-activation.jpg").default} alt="neg-activation" width="400px" />
 </picture>
 

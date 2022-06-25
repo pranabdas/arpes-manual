@@ -4,6 +4,6 @@ sidebar_label: Slit dimensions
 ---
 
 <picture>
-  <source type="image/webp" srcset={require("/img/slit-dim.webp").default} />
+  <source type="image/webp" srcSet={require("/img/slit-dim.webp").default} />
   <img src={require("/img/slit-dim.png").default} alt="slit-dim" />
 </picture>

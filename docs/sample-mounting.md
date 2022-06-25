@@ -22,7 +22,7 @@ heating, or has to go inside the PLD chamber. If the sample does not require
 heating, any size that fits inside 10&nbsp;mm ✕ 10&nbsp;mm area is OK.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/sample-holder.webp").default} />
+  <source type="image/webp" srcSet={require("/img/sample-holder.webp").default} />
   <img src={require("/img/sample-holder.jpg").default} alt="sample-holder" width="400px" />
 </picture>
 

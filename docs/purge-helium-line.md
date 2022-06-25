@@ -19,7 +19,7 @@ steps.
 Repeat the process a few times.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/helium-purge-01.webp").default} />
+  <source type="image/webp" srcSet={require("/img/helium-purge-01.webp").default} />
   <img src={require("/img/helium-purge-01.jpg").default} alt="helium-purge-01" width="600px" />
 </picture>
 
@@ -27,7 +27,7 @@ Repeat the process a few times.
 <br />
 
 <picture>
-  <source type="image/webp" srcset={require("/img/helium-purge-02.webp").default} />
+  <source type="image/webp" srcSet={require("/img/helium-purge-02.webp").default} />
   <img src={require("/img/helium-purge-02.jpg").default} alt="helium-purge-02" width="600px" />
 </picture>
 
@@ -35,6 +35,6 @@ Repeat the process a few times.
 <br />
 
 <picture>
-  <source type="image/webp" srcset={require("/img/helium-purge-03.webp").default} />
+  <source type="image/webp" srcSet={require("/img/helium-purge-03.webp").default} />
   <img src={require("/img/helium-purge-03.jpg").default} alt="helium-purge-03" width="600px" />
 </picture>

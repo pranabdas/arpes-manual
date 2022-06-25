@@ -17,6 +17,6 @@ chamber (pressure ~5&nbsp;✕&nbsp;10<sup>-8</sup> mbar).
 - Certain samples can be prepared by argon sputtering and annealing.
 
 <picture>
-  <source type="image/webp" srcset={require("/img/ARPES-station.webp").default} />
+  <source type="image/webp" srcSet={require("/img/ARPES-station.webp").default} />
   <img src={require("/img/ARPES-station.jpg").default} alt="SSLS ARPES system" />
 </picture>
