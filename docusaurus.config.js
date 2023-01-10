@@ -10,14 +10,14 @@ async function config() {
     baseUrl: "/arpes-manual/", // must have a trailing "/"
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
-    favicon: "img/favicon.ico",
+    favicon: "img/favicon.png",
     organizationName: "pranabdas", // Usually your GitHub org/user name.
     projectName: "arpes-manual", // Usually your repo name.
     titleDelimiter: "•",
     themeConfig:
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
-        metadata: [{name: 'theme-color', content: '#006bb3'}],
+        metadata: [{ name: "theme-color", content: "#006bb3" }],
         prism: {
           theme: require("prism-react-renderer/themes/github"),
           darkTheme: require("prism-react-renderer/themes/nightOwl"),
@@ -26,7 +26,7 @@ async function config() {
           sidebar: {
             hideable: true,
             autoCollapseCategories: true,
-          }
+          },
         },
         // colorMode: {
         //   defaultMode: "dark",
@@ -41,7 +41,7 @@ async function config() {
           hideOnScroll: true,
           logo: {
             alt: "Logo",
-            src: "img/favicon.ico",
+            src: "img/favicon.png",
           },
           items: [
             {
@@ -140,8 +140,7 @@ async function config() {
         },
         footer: {
           style: "dark",
-          copyright: `Copyright © ${new Date().getFullYear()} Pranab Das. All rights
-      reserved.`,
+          copyright: `Copyright © ${new Date().getFullYear()} Pranab Das. All rights reserved.`,
         },
       }),
 
@@ -154,8 +153,7 @@ async function config() {
             sidebarPath: require.resolve("./sidebars.js"),
             routeBasePath: "/",
             // Please change this to your repo.
-            editUrl:
-              "https://github.com/pranabdas/arpes-manual/blob/main/",
+            editUrl: "https://github.com/pranabdas/arpes-manual/blob/main/",
             remarkPlugins: [math],
             rehypePlugins: [katex],
           },
@@ -174,7 +172,7 @@ async function config() {
           hashed: true,
           docsRouteBasePath: "/",
           indexBlog: false,
-          indexPages:true,
+          indexPages: true,
           highlightSearchTermsOnTargetPage: true,
         },
       ],

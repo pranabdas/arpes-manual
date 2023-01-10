@@ -12,6 +12,7 @@ module.exports = {
     "x-ray",
     "sputtering",
     "heating",
+    "cryostat",
     "analyzer",
     "data-analysis",
     "resolution",

@@ -25,6 +25,15 @@ cooling water pipes.
 **Note:** Due to improper interlock configuration, currently the baking
 controller requires the cryopump to be ON while baking.
 
+:::danger
+
+After the baking is complete, allow sufficient time (about one whole day) for
+the chamber to cool down. Do not remove the baking tent or aluminum foils until
+the chamber reached near room temperature. Sudden temperature change might
+cause cracks in the viewports and feed-throughs.
+
+:::
+
 ### Reference log
 For you reference of various conditions, here is sample logbook:
 
