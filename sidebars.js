@@ -18,6 +18,7 @@ module.exports = {
     "resolution",
     "baking",
     "misc",
+    "safety",
     "license",
   ],
 };
