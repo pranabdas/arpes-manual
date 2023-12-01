@@ -1,6 +1,5 @@
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",
-  // https://github.com/microsoft/vscode-dev-containers/tree/main/containers
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "customizations": {
     "vscode": {
       "settings": {
@@ -35,7 +34,7 @@
   },
   "features": {
     "node": {
-      "version": "18"
+      "version": "20"
     }
   },
   "postCreateCommand": "npm install",
