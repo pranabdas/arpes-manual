@@ -34,7 +34,7 @@
   },
   "features": {
     "node": {
-      "version": "20"
+      "version": "22"
     }
   },
   "postCreateCommand": "npm install",
