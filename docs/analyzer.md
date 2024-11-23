@@ -19,13 +19,14 @@ set the MCP voltage to 1200&nbsp;V or below.
 
 :::danger
 
-If the chamber pressure starts to increase and/or the LED lights flash red, or
-there is a sudden increase of counts or a hot pot, you must immediately exit the
-voltage calibration window, and turn off the HV switch at the front of HV rack.
+If the chamber pressure starts to increase and/<wbr/>or the LED lights flash
+red, or there is a sudden increase of counts or a hot pot, you must immediately
+exit the voltage calibration window, and turn off the HV switch at the front of
+HV rack.
 
 :::
 
-After every chamber bake-out, or any changes to chamber condition and/or
+After every chamber bake-out, or any changes to chamber condition and/<wbr/>or
 analyzer electrical connections, please follow this procedure:
 
 1. Check that the HV switch at the front of HV rack is turned off.

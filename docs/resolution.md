@@ -11,18 +11,12 @@ using molecular beam epitaxy (MBE) method. The sample was of very good quality.
 We obtained the following ARPES spectrum using 10&nbsp;eV pass energy and
 5&nbsp;meV energy step.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/res-band.webp").default} />
-  <img src={require("/img/res-band.png").default} alt="res-band" width="500px" />
-</picture>
+![res-band](../static/img/res-band.webp)
 
 We extract the Energy Distribution Curve (EDC) by integrating
 ±0.25&nbsp;Å<sup>-1</sup> range.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/res-edc.webp").default} />
-  <img src={require("/img/res-edc.png").default} alt="res-edc" width="500px" />
-</picture>
+![res-edc](../static/img/res-edc.webp)
 
 Thermal broadening is given by Fermi Dirac distribution:
 
@@ -35,18 +29,12 @@ Above measurement was carried out at liquid nitrogen temperature; the sample
 temperature reaches about 90&nbsp;K, at which the Fermi-Dirac distribution looks
 like this:
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/res-fermi-func.webp").default} />
-  <img src={require("/img/res-fermi-func.png").default} alt="res-fermi-func" width="500px"/>
-</picture>
+![res-fermi-func](../static/img/res-fermi-func.webp)
 
 Now, we can convolute a Gaussian broadening of 10&nbsp;meV, which fits our
 experimental data well.
 
-<picture>
-  <source type="image/webp" srcSet={require("/img/res-fit.webp").default} />
-  <img src={require("/img/res-fit.png").default} alt="res-fit" width="500px" />
-</picture>
+![res-fit](../static/img/res-fit.webp)
 
 There is some room for adjusting the fitting parameters, but the slope is
 certainly better than 15&nbsp;meV for our current data. Therefore, we have about

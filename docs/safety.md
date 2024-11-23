@@ -54,7 +54,7 @@ covered shoes.
 
 ## Chemical safety
 
-Always make sure you have gone through various safety measures/regulations
+Always make sure you have gone through various safety measures/<wbr/>regulations
 before bringing any chemical to the campus. We need licenses for storing and
 working with various chemicals. You need to provide material data sheet to the
 safety officer, so that our chemical spill team are aware of various risks in

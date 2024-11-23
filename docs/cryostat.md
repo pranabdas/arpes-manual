@@ -1,5 +1,5 @@
 ---
-title: Crystat Operation
+title: Cryostat Operation
 ---
 
 Manipulator can be cooled down using either liquid nitrogen or helium.
@@ -30,11 +30,11 @@ sample stage temperature reaches about 85 K while using liquid nitrogen.
 
 We have only one heating channel (loop 1). In order to set temperature, press
 key `5` or `6` (for `loop 1` or `loop 2`, respectively), if the section is not
-set point, use up/down arrow keys to select set point, entered desired number,
-press `Enter`. Go back to main screen by pressing `Home`.
+set point, use up/<wbr/>down arrow keys to select set point, entered desired
+number, press `Enter`. Go back to main screen by pressing `Home`.
 
-You can also access set point by `Set Pt` key, select the loop by up/down arrow
-keys, enter desired number and press `Enter`.
+You can also access set point by `Set Pt` key, select the loop by up/<wbr/>down
+arrow keys, enter desired number and press `Enter`.
 
 In order to start the heating press `Control`, and stop press `Stop`.
 
@@ -46,7 +46,7 @@ dewar.
 
 Make sure that the cryogen flow is optimal. If there is excessive flow, it will
 cause condensation at the manipulator head. Later when it melts, water could
-fall over motors and other sensitive electrical/ mechanical components.
+fall over motors and other sensitive electrical/<wbr/>mechanical components.
 
 The pressure in the dewar must not exceed 0.5 bar. The dewar used for liquid
 nitrogen has pressure release valve to maintain 0.5 bar. However, always keep an
