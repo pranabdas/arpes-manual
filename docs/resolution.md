@@ -16,7 +16,7 @@ We obtained the following ARPES spectrum using 10&nbsp;eV pass energy and
 We extract the Energy Distribution Curve (EDC) by integrating
 ±0.25&nbsp;Å<sup>-1</sup> range.
 
-![res-edc](../static/img/res-edc.webp)
+<img src={require("../static/img/res-edc.webp").default} alt="res-edc" class="inv-hue-rot-180"/>
 
 Thermal broadening is given by Fermi Dirac distribution:
 
@@ -29,7 +29,7 @@ Above measurement was carried out at liquid nitrogen temperature; the sample
 temperature reaches about 90&nbsp;K, at which the Fermi-Dirac distribution looks
 like this:
 
-![res-fermi-func](../static/img/res-fermi-func.webp)
+<img src={require("../static/img/res-fermi-func.webp").default} alt="res-fermi-func" class="inv-hue-rot-180"/>
 
 Now, we can convolute a Gaussian broadening of 10&nbsp;meV, which fits our
 experimental data well.
