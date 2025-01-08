@@ -11,7 +11,7 @@ using molecular beam epitaxy (MBE) method. The sample was of very good quality.
 We obtained the following ARPES spectrum using 10&nbsp;eV pass energy and
 5&nbsp;meV energy step.
 
-![res-band](../static/img/res-band.webp)
+<img alt="res-band" src={require("../static/img/res-band.webp").default}/>
 
 We extract the Energy Distribution Curve (EDC) by integrating
 ±0.25&nbsp;Å<sup>-1</sup> range.
@@ -34,7 +34,7 @@ like this:
 Now, we can convolute a Gaussian broadening of 10&nbsp;meV, which fits our
 experimental data well.
 
-![res-fit](../static/img/res-fit.webp)
+<img alt="res-fit" src={require("../static/img/res-fit.webp").default} class="inv-hue-rot-180"/>
 
 There is some room for adjusting the fitting parameters, but the slope is
 certainly better than 15&nbsp;meV for our current data. Therefore, we have about

@@ -163,4 +163,4 @@ Chamber pressure at 11:40 <br/>
 Analyzer : 2.26 ✕ 10<sup>-10</sup> mbar <br/>
 Spin : 1.72 ✕ 10<sup>-10</sup> mbar <br/>
 Prep : 4.07 ✕ 10<sup>-10</sup> mbar <br/>
-Buffer : 2.28 ✕ 10<sup>-7</sup>mbar.
+Buffer : 2.28 ✕ 10<sup>-7</sup> mbar.
