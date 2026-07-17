@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarpes_manual=self.webpackChunkarpes_manual||[]).push([["754"],{1106(a){a.exports=JSON.parse('{"metadata":{"permalink":"/arpes-manual/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
